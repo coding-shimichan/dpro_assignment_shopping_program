@@ -33,7 +33,7 @@ class Cart
       item.owner = self.owner
     end
   #   - カートの中身（Cart#items）が空になること。
-
+    @items.clear
   # ## ヒント
   #   - カートのオーナーのウォレット ==> self.owner.wallet
   #   - アイテムのオーナーのウォレット ==> item.owner.wallet
